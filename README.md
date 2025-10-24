@@ -8,8 +8,8 @@ To Write an assembly language program in 8051 to count the number of even and od
 ---
 
 ## Algorithm(ASCENDING ORDER)
-##1.Initialize:
-
+1.Initialize:
+----
 Set R0 (data pointer) to 30H.
 
 Set R1 (Even Count) and R2 (Odd Count) to 0.
@@ -22,7 +22,8 @@ Load the byte from the address in R0 into the Accumulator (A).
 
 Use RRC A (Rotate Right through Carry) to move the byte's Least Significant Bit (LSB) into the Carry Flag (C).
 
-##2.Check Carry (C):
+2.Check Carry (C):
+---
 
 If C = 0 (Even number), increment R1.
 
@@ -33,13 +34,13 @@ Increment R0 to point to the next byte.
 Decrement R3 and repeat the loop until R3 = 0.
 
 ##3.Finish:
-
+---
 Store the final Even Count (R1) in memory location 50H.
 
 Store the final Odd Count (R2) in memory location 51H.
 
 Halt the program. 
----
+
 
 ## Program (Ascending order)
 
