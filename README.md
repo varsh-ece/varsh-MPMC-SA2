@@ -33,7 +33,7 @@ Increment R0 to point to the next byte.
 
 Decrement R3 and repeat the loop until R3 = 0.
 
-##3.Finish:
+3.Finish:
 ---
 Store the final Even Count (R1) in memory location 50H.
 
