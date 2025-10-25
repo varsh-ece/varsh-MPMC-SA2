@@ -7,7 +7,7 @@ To Write an assembly language program in 8051 to count the number of even and od
 - Keil µVision software  
 ---
 
-## Algorithm(ASCENDING ORDER)
+## Algorithm
 1.Initialize:
 ----
 Set R0 (data pointer) to 30H.
@@ -42,7 +42,7 @@ Store the final Odd Count (R2) in memory location 51H.
 Halt the program. 
 
 
-## Program (Ascending order)
+## Program 
 
 ````````````````````
 ORG 00H
